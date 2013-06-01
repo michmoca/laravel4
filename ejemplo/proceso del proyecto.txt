@@ -1,0 +1,20 @@
+1- modificar los archivos de laravel
+	-http://docs.cartalyst.com/sentry-2/installation/laravel-4
+2-install composer en la carpeta del proyecto
+3-composer update --de ser necesario
+4-php artisan serve
+	-localhost:8000
+
+5-crear bd y demás
+	http://www.codeforest.net/laravel4-simple-website-with-backend-1
+
+	php artisan migrate --package=cartalyst/sentry
+
+	php artisan migrate:make create_articles_table --table=articles --create
+	php artisan migrate:make create_pages_table --table=pages --create
+
+	PONER EL CODIGO QUE SE VA A EJECUTAR EN LA MIGRACION DE LAS TABLAS JEJE
+
+	php artisan migrate
+
+	CREAR MODELOS JEJE

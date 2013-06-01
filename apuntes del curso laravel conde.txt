@@ -1,0 +1,7 @@
+CODIGOS MUY USADOS
+MIGRACIONES
+		php artisan migrate:install
+		php artisan migrate:make create_users_table
+		php artisan migrate //crear tablas
+		php artisan migrate:rollback //eliminar
+
